@@ -1,8 +1,24 @@
 aid: oyo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oyo.png
 name: OYO
-description: 'OYO is a company surfaced as a portfolio company of softbank-vision-fund and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'OYO (Oravel Stays Limited) is an India-headquartered hospitality company that operates a
+  franchise and aggregator platform for budget and mid-market hotels, homes, and vacation rentals across
+  India, Southeast Asia, Europe, and other markets. Founded in 2013 by Ritesh Agarwal and backed by
+  SoftBank Vision Fund, OYO standardizes independent properties under its brands and distributes them
+  through its consumer apps and website. It is tracked in the API Evangelist network as a consumer-sector
+  company; as of this enrichment pass OYO publishes no public developer API, developer portal, or API
+  documentation, so this profile carries company identity only.'
 url: https://raw.githubusercontent.com/api-evangelist/oyo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +28,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Hospitality
+- Hotels
+- Travel
+- Booking
+- Vacation Rentals
+- India
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/oyo-domain-security.yml
+- type: Website
+  url: https://www.oyorooms.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
