@@ -1,0 +1,26 @@
+# Front Door AI Index — oyo — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: oyo
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.oyorooms.com
+  final_host: www.oyorooms.com
+  ownership: shared
+  owner: oyo-rooms
+  shares_host_with:
+  - oyo-rooms
+  inherited_from: null
+  verdict: scored
+  score: null
+  host_score: 1
+  density: null
+  words: 520
+  tiers:
+    agentic: 0
+    core: 1
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 1
